@@ -1,0 +1,72 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2043,         64]
+NotebookOptionsPosition[      1483,         46]
+NotebookOutlinePosition[      1874,         62]
+CellTagsIndexPosition[      1831,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"PacletDirectoryLoad", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<..\>\""}], "}"}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9430286189574013`*^9, 3.94302862272228*^9}, 
+   3.943028661481577*^9, {3.943028693818165*^9, 3.9430286938209677`*^9}, 
+   3.943029511016672*^9},ExpressionUUID->"a72f479a-e7d2-4161-bbe4-\
+91735020c826"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"/home/amadoc/Desktop/Programming/Mathematica/QW\"\>", 
+  "}"}]], "Output",
+ CellChangeTimes->{3.943028698208146*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"cd73fc56-4d08-454a-a5a8-db035d37962f"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<QW`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.9430287354349813`*^9, 3.943028741188609*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"db744e58-d8b8-4594-83eb-085839b07188"]
+},
+WindowSize->{1024.5, 483},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Linux x86 (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"72c353a9-9999-4c9a-9318-86bcc68f2b4c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 439, 10, 22, "Input",ExpressionUUID->"a72f479a-e7d2-4161-bbe4-91735020c826"],
+Cell[1022, 34, 227, 4, 25, "Output",ExpressionUUID->"cd73fc56-4d08-454a-a5a8-db035d37962f"]
+}, Open  ]],
+Cell[1264, 41, 215, 3, 22, "Input",ExpressionUUID->"db744e58-d8b8-4594-83eb-085839b07188"]
+}
+]
+*)
+
