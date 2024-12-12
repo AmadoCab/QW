@@ -60,7 +60,9 @@ StyleBox[\"a\", \"TI\"],
 StyleBox[\"i\", \"TI\"]]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[StyleBox[\"c\", \"TI\"], StyleBox[\"i\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"p\", \"TI\"], StyleBox[\"i\", \"TI\"]]}]},\n\"Ket\"]\).";
 
 
-DMatrixState::usage="DMatrixState[] creates a matrix given by the expression ....";
+DMatrixState::usage="DMatrixState[{{\!\(\*SubscriptBox[\(a\), \(\(1\)\(,\)\)]\)\!\(\*SubscriptBox[\(b\), \(1\)]\),\!\(\*SubscriptBox[SubscriptBox[\(c\), \(1\)], \(,\)]\)\!\(\*SubscriptBox[\(d\), \(1\)]\),\!\(\*SubscriptBox[\(e\), \(1\)]\)},...,{\!\(\*SubscriptBox[\(a\), \(\(n\)\(,\)\)]\)\!\(\*SubscriptBox[\(b\), \(n\)]\),\!\(\*SubscriptBox[SubscriptBox[\(c\), \(n\)], \(,\)]\)\!\(\*SubscriptBox[\(d\), \(n\)]\),\!\(\*SubscriptBox[\(e\), \(n\)]\)}}] creates a density matrix given by the expression \!\(\*UnderoverscriptBox[\(\[Sum]\), \(\*
+StyleBox[\"i\", \"TI\"] = 1\), 
+StyleBox[\"n\", \"TI\"]]\) \!\(\*SubscriptBox[\(a\), \(i\)]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"b\", \"i\"], \",\", SubscriptBox[\"c\", \"i\"]}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"d\", \"i\"], \",\", SubscriptBox[\"e\", \"i\"]}]},\n\"Bra\"]\).";
 
 
 ValidVectorStateQ::usage="ValidVectorStateQ[\!\(\*
@@ -115,7 +117,7 @@ StyleBox[\"p\", \"TI\"]\) probability of getting a phase\[Dash]flip.";
 (*Misc*)
 
 
-InitialRhoState::usage="...";
+InitialRhoState::usage="InitialRhoState[blochVector_List,pos_List] gives the initial state of the quantum walk as a density matrix of the form \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\)\[CircleTimes]\!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) where \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\) is the density matrix created from Bloch vector blochVector_List, and \!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) is the density matrix \!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"1\", \"]\"}], \"]\"}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"2\", \"]\"}], \"]\"}]},\n\"Bra\"]\).";
 
 
 rowQW::usage="...";
@@ -226,7 +228,7 @@ DMatrixState[{{a,0,i,0,j},{b,0,i,1,j},{c,1,i,0,j},{d,1,i,1,j}}]
 
 rowQW[state_,steps_]:=Module[
 {rho,prob},
-rho=# . #\[ConjugateTranspose]&@DTQW2[state,steps];
+rho=# . #\[ConjugateTranspose]&@DTQW[state,steps];
 prob=Abs@Diagonal@MatrixPartialTrace[rho,1,{2,201}]
 ]
 
