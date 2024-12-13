@@ -21,23 +21,23 @@ ClearAll@@Names["QW`AnaliticDTQW`*"];
 (*Unitary Part*)
 
 
-ACoin::usage="...";
+ACoin::usage="ACoin[state] analytically applies the coin operator to transform the state state.";
 
 
-AShift::usage="...";
+AShift::usage="AShift[state] analytically applies the shift operator to transform the state state.";
 
 
-AUnitary::usage="..."
+AUnitary::usage="AUnitary[state] analytically calculates a step of the DQWL after applying the unitary transform."
 
 
 (* ::Section:: *)
 (*Decoherent Part*)
 
 
-APhaseFlip::usage="...";
+APhaseFlip::usage="APhaseFlip[state] applies a phase flip to the state state.";
 
 
-AChannel::usage="...";
+AChannel::usage="AChannel[state,p] applies the phase flip channel to the state with probability p, and the unitary transformation with probability 1-p.";
 
 
 (* ::Chapter:: *)

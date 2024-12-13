@@ -28,13 +28,13 @@ StyleBox[\"c\", \"TI\"]\) is the size of the coin space and \!\(\*
 StyleBox[\"p\", \"TI\"]\) the size of the position space.";
 
 
-MakeCoin::usage="Given an specification it will build the appropriate operator (incomplete)";
+MakeCoin::usage="MakeCoin[r, \[Theta], \[Phi]] constructs a parameterized coin matrix for a quantum walk, defined by the parameters r, \[Theta], and \[Phi].";
 
 
-MakeShift::usage="Given an specification it will build the appropriate shift operator (incomplete).";
+MakeShift::usage="MakeShift[] constructs the shift operator for a DQWL by combining the coin and position bases.";
 
 
-MakeUnitary::usage="MakeUnitary[] ";
+MakeUnitary::usage="MakeUnitary[] constructs the unitary matrix for a DQWL by applying the shift operator and the coin operator.";
 
 
 (* ::Section:: *)
@@ -120,13 +120,13 @@ StyleBox[\"p\", \"TI\"]\) probability of getting a phase\[Dash]flip.";
 InitialRhoState::usage="InitialRhoState[blochVector_List,pos_List] gives the initial state of the quantum walk as a density matrix of the form \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\)\[CircleTimes]\!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) where \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\) is the density matrix created from Bloch vector blochVector_List, and \!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) is the density matrix \!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"1\", \"]\"}], \"]\"}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"2\", \"]\"}], \"]\"}]},\n\"Bra\"]\).";
 
 
-rowQW::usage="...";
+rowQW::usage="rowQW[state,steps] returns the probability distribution at each position of the walk with initial state state after the specified number of steps steps.";
 
 
-QPascal::usage="...";
+QPascal::usage="QPascal[state,steps] generates a table representing the evolution of the probability distribution of a DQWL on a line, showing the probabilities at the central positions after each step up to a specified number of steps.";
 
 
-BlochVector::usage="...";
+BlochVector::usage="BlochVector[operators_List] calculates the Bloch vector associated with a set of operators in operators_List, represented by 2\[Times]2 matrices.";
 
 
 (* ::Chapter:: *)
@@ -170,6 +170,7 @@ VectorStateToArray[state_VectorState?ValidVectorStateQ]:=Total[#[[1]] KroneckerP
 
 DTQW[state_VectorState,n_Integer]:=Module[
 {U=ShiftMat . KroneckerProduct[CoinMat,IdentityMatrix[posSize]]},
+(* Caminata cu\[AAcute]ntica discreta en el tiempo, en una l\[IAcute]nea *)
 Nest[Dot[U,#]&,N[VectorStateToArray[state]],n]
 ]
 
@@ -177,12 +178,12 @@ Nest[Dot[U,#]&,N[VectorStateToArray[state]],n]
 DTQWwD[state_VectorState,p_?NumericQ,n_Integer]:=Module[
 {U=UnitaryMat,K1,K2,rho},
 (* Caminata cu\[AAcute]ntica con decoherencia calculada seg\[UAcute]n los operadores de Kraus *)
-(* Calculo de operadores de Kraus *)
+(* C\[AAcute]lculo de los operadores de Kraus *)
 K1=Sqrt[p] U;
 K2=Sqrt[1-p] KroneckerProduct[PauliMatrix[3],IdentityMatrix[posSize]] . U;
-(* Calculo de la matriz densidad *)
+(* C\[AAcute]lculo de la matriz densidad *)
 rho=# . #\[ConjugateTranspose]&@N[VectorStateToArray[state]];
-(* Calculo del canal cu\[AAcute]ntico *)
+(* C\[AAcute]lculo del canal cu\[AAcute]ntico *)
 Nest[Chop[K1 . # . K1\[ConjugateTranspose]+K2 . # . K2\[ConjugateTranspose]]&,rho,n]
 ]
 
