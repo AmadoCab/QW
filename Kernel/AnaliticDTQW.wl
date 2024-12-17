@@ -4,6 +4,10 @@
 (*AnaliticDTQW*)
 
 
+(* ::Text::RGBColor[1, 0, 0]:: *)
+(*cambi\[EAcute] el nombre de las funciones de cosas como ACoin a AnlCoin, para ser m\[AAcute]s explicitos de que son cosas anal\[IAcute]ticas*)
+
+
 BeginPackage["QW`AnaliticDTQW`"];
 
 
@@ -17,27 +21,38 @@ ClearAll@@Names["QW`AnaliticDTQW`*"];
 (*Public*)
 
 
+(* ::Text:: *)
+(*agregu\[EAcute] esta l\[IAcute]nea:*)
+
+
+<<ForScience` (* For nice usage messages formatting *)
+
+
 (* ::Section:: *)
 (*Unitary Part*)
 
 
-ACoin::usage="ACoin[state] analytically applies the coin operator to transform the state state.";
+AnlCoin::usage=FormatUsage["AnlCoin[state] returns the analytic expression of coin operator applied to ```state```."];
 
 
-AShift::usage="AShift[state] analytically applies the shift operator to transform the state state.";
+AnlShift::usage=FormatUsage["AnlShift[state] returns the analytic expression of shift operator applied to ```state```."];
 
 
-AUnitary::usage="AUnitary[state] analytically calculates a step of the DQWL after applying the unitary transform."
+AnlDTQWstep::usage=FormatUsage["AnlDTQWstep[state] returns the analytic expression of a DTQW step of ```state```."];
 
 
 (* ::Section:: *)
 (*Decoherent Part*)
 
 
-APhaseFlip::usage="APhaseFlip[state] applies a phase flip to the state state.";
+(* ::Text:: *)
+(*No entiendo las funciones, entonces hasta despu\[EAcute]s escribo los msjs de uso. Por qu\[EAcute] el input son estados y no matrices de densidad? Me servir\[IAcute]a ver un ejemplo para entender mejor*)
 
 
-AChannel::usage="AChannel[state,p] applies the phase flip channel to the state with probability p, and the unitary transformation with probability 1-p.";
+AnlPhaseFlip::usage=FormatUsage["AnlPhaseFlip[state] returns the analytic expression of ..." .
+
+
+AnlChannel::usage="";
 
 
 (* ::Chapter:: *)
@@ -51,8 +66,12 @@ Begin["`Private`"];
 (*Unitary Part*)
 
 
+(* ::Text:: *)
+(*Quiero entender porqu\[EAcute] aqu\[IAcute] hay bras*)
+
+
 (* ::Input::Initialization:: *)
-ACoin[state_]:=state/.{
+AnlCoin[state_]:=state/.{
 Ket[{c_,p_}]/;c==0->(Ket[{0,p}]+Ket[{1,p}])/Sqrt[2],
 Ket[{c_,p_}]/;c==1->(Ket[{0,p}]-Ket[{1,p}])/Sqrt[2],
 Bra[{c_,p_}]/;c==0->(Bra[{0,p}]+Bra[{1,p}])/Sqrt[2],
@@ -61,7 +80,7 @@ Bra[{c_,p_}]/;c==1->(Bra[{0,p}]-Bra[{1,p}])/Sqrt[2]
 
 
 (* ::Input::Initialization:: *)
-AShift[state_]:=state/.{
+AnlShift[state_]:=state/.{
 Ket[{c_,p_}]/;c==0->Ket[{0,p+1}],
 Ket[{c_,p_}]/;c==1->Ket[{1,p-1}],
 Bra[{c_,p_}]/;c==0->Bra[{0,p+1}],
@@ -70,7 +89,7 @@ Bra[{c_,p_}]/;c==1->Bra[{1,p-1}]
 
 
 (* ::Input::Initialization:: *)
-AUnitary[state_]:=AShift@ACoin@state//FullSimplify
+AnlDTQWstep[state_]:=AnlShift@AnlCoin@state//FullSimplify
 
 
 (* ::Section:: *)
@@ -78,7 +97,7 @@ AUnitary[state_]:=AShift@ACoin@state//FullSimplify
 
 
 (* ::Input::Initialization:: *)
-APhaseFlip[state_]:=state/.{
+AnlPhaseFlip[state_]:=state/.{
 Ket[{c_,p_}]/;c==0->Ket[{c,p}],
 Ket[{c_,p_}]/;c==1->-Ket[{c,p}],
 Bra[{c_,p_}]/;c==0->Bra[{c,p}],
@@ -87,7 +106,7 @@ Bra[{c_,p_}]/;c==1->-Bra[{c,p}]
 
 
 (* ::Input::Initialization:: *)
-AChannel[state_,p_]:=p AUnitary[state]+(1-p) APhaseFlip[AUnitary[state]]//FullSimplify//TensorExpand
+AnlChannel[state_,p_]:=p AnlDTQWstep[state]+(1-p) AnlPhaseFlip[AnlDTQWstep[state]]//FullSimplify//TensorExpand
 
 
 End[];
