@@ -17,10 +17,13 @@ ClearAll@@Names["QW`RandomWalks`*"];
 (*Public*)
 
 
-PascalRow::usage="PascalRow[n_Integer] generates the n-th row of Pascal's triangle interleaved with zeros between the row values. Each element is normalized by dividing by \!\(\*SuperscriptBox[\(2\), \(n\)]\).";
+<<ForScience` (* For nice usage messages formatting *)
 
 
-RandomWalkDistribution::usage="RandomWalkDistribution[n_Integer] gives a list of lists of the form {\!\(\*SubscriptBox[\(p\), \(i\)]\), \!\(\*SubscriptBox[\(val\), \(i\)]\)} where \!\(\*SubscriptBox[\(p\), \(i\)]\) is the position, and \!\(\*SubscriptBox[\(val\), \(i\)]\) can be n-th row of Pascal's triangle normalized by dividing by \!\(\*SuperscriptBox[\(2\), \(n\)]\) if i is odd or 0 if i is even.";
+PascalRow::usage=FormatUsage["PascalRow[n] generates the ```n-```th row of Pascal's triangle interleaved with zeros. Each element is normalized by dividing by ```2^n```."];
+
+
+RandomWalkDistribution::usage=FormatUsage["RandomWalkDistribution[n] returns the probability distribution associated with a quantum walker in a DTQW after ```n``` steps. The output is a list whose elements are of the form ```{p_i, x_i}```, where ```p_i``` is the probability that the walker is at position ```x_i``` after ```n``` steps."];
 
 
 (* ::Chapter:: *)
