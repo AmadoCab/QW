@@ -17,116 +17,73 @@ ClearAll@@Names["QW`NumericDTQW`*"];
 (*Public*)
 
 
+<<ForScience`
+
+
 (* ::Section:: *)
 (*Inicialization*)
 
 
-InitializeDTQW::usage="InitializeDTQW[\!\(\*
-StyleBox[\"c\", \"TI\"]\),\!\(\*
-StyleBox[\"p\", \"TI\"]\)] creates the internal variables needed to simulate a DTQW, where \!\(\*
-StyleBox[\"c\", \"TI\"]\) is the size of the coin space and \!\(\*
-StyleBox[\"p\", \"TI\"]\) the size of the position space.";
+InitializeDTQW::usage=FormatUsage["InitializeDTQW[c, p] creates the internal variables needed to simulate a DTQW, where ```c``` is the size of the coin space and ```p``` the size of the position space."];
 
 
-MakeCoin::usage="MakeCoin[r, \[Theta], \[Phi]] constructs a parameterized coin matrix for a quantum walk, defined by the parameters r, \[Theta], and \[Phi].";
+MakeCoin::usage=FormatUsage["MakeCoin[r, \[Theta], \[Phi]] constructs a parameterized coin matrix for a quantum walk, defined by the parameters ```r```, ```\[Theta]```, and ```\[Phi]```."];
 
 
-MakeShift::usage="MakeShift[] constructs the shift operator for a DQWL by combining the coin and position bases.";
+MakeShift::usage=FormatUsage["MakeShift[] constructs the shift operator for a DQWL with the given coin and position bases."];
 
 
-MakeUnitary::usage="MakeUnitary[] constructs the unitary matrix for a DQWL by applying the shift operator and the coin operator.";
+MakeUnitary::usage=FormatUsage["MakeUnitary[] constructs the unitary matrix for a DQWL by applying the shift operator and the coin operator given by their respective functions."];
 
 
 (* ::Section:: *)
 (*States*)
 
 
-VectorState::usage="VectorState[{{\!\(\*SubscriptBox[
-StyleBox[\"a\", \"TI\"], 
-StyleBox[\"1\", \"TI\"]]\),\!\(\*SubscriptBox[
-StyleBox[\"c\", \"TI\"], 
-StyleBox[\"1\", \"TI\"]]\),\!\(\*SubscriptBox[
-StyleBox[\"p\", \"TI\"], 
-StyleBox[\"1\", \"TI\"]]\)},...,{\!\(\*SubscriptBox[
-StyleBox[\"a\", \"TI\"], 
-StyleBox[\"n\", \"TI\"]]\),\!\(\*SubscriptBox[
-StyleBox[\"c\", \"TI\"], 
-StyleBox[\"n\", \"TI\"]]\),\!\(\*SubscriptBox[
-StyleBox[\"p\", \"TI\"], 
-StyleBox[\"n\", \"TI\"]]\)}}] creates a vector state given by the expression \!\(\*UnderoverscriptBox[\(\[Sum]\), \(\*
-StyleBox[\"i\", \"TI\"] = 1\), 
-StyleBox[\"n\", \"TI\"]]\)\!\(\*SubscriptBox[
-StyleBox[\"a\", \"TI\"], 
-StyleBox[\"i\", \"TI\"]]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[StyleBox[\"c\", \"TI\"], StyleBox[\"i\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"p\", \"TI\"], StyleBox[\"i\", \"TI\"]]}]},\n\"Ket\"]\).";
+VectorState::usage=FormatUsage["VectorState[{{a_1,c_1,p_1},...,{a_n,c_n,p_n}}] creates a vector state given by the expression '''Sum[```a_i```Ket[{```c_i```,```p_i```}],{```i```,```1```,```n```}]'''."];
 
 
-DMatrixState::usage="DMatrixState[{{\!\(\*SubscriptBox[\(a\), \(\(1\)\(,\)\)]\)\!\(\*SubscriptBox[\(b\), \(1\)]\),\!\(\*SubscriptBox[SubscriptBox[\(c\), \(1\)], \(,\)]\)\!\(\*SubscriptBox[\(d\), \(1\)]\),\!\(\*SubscriptBox[\(e\), \(1\)]\)},...,{\!\(\*SubscriptBox[\(a\), \(\(n\)\(,\)\)]\)\!\(\*SubscriptBox[\(b\), \(n\)]\),\!\(\*SubscriptBox[SubscriptBox[\(c\), \(n\)], \(,\)]\)\!\(\*SubscriptBox[\(d\), \(n\)]\),\!\(\*SubscriptBox[\(e\), \(n\)]\)}}] creates a density matrix given by the expression \!\(\*UnderoverscriptBox[\(\[Sum]\), \(\*
-StyleBox[\"i\", \"TI\"] = 1\), 
-StyleBox[\"n\", \"TI\"]]\) \!\(\*SubscriptBox[\(a\), \(i\)]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"b\", \"i\"], \",\", SubscriptBox[\"c\", \"i\"]}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"d\", \"i\"], \",\", SubscriptBox[\"e\", \"i\"]}]},\n\"Bra\"]\).";
+DMatrixState::usage=FormatUsage["DMatrixState[{{a_1,b_1,c_1,d_1,e_1},...,{a_n,b_n,c_n,d_n,e_n}}] creates a density matrix given by the expression "]<>"\!\(\*UnderoverscriptBox[\(\[Sum]\), \(\*StyleBox[\"i\", \"TI\"] = 1\), StyleBox[\"n\", \"TI\"]]\) \!\(\*SubscriptBox[\(a\), \(i\)]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"b\", \"i\"], \",\", SubscriptBox[\"c\", \"i\"]}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{SubscriptBox[\"d\", \"i\"], \",\", SubscriptBox[\"e\", \"i\"]}]},\n\"Bra\"]\).";
 
 
-ValidVectorStateQ::usage="ValidVectorStateQ[\!\(\*
-StyleBox[\"state\", \"TI\"]\)] gives \!\(\*TemplateBox[{Cell[TextData[\"True\"]], \"paclet:ref/True\"},\n\"RefLink\",\nBaseStyle->{\"InlineFormula\"}]\) if \!\(\*
-StyleBox[\"state\", \"TI\"]\) is a valid VectorState, and \!\(\*TemplateBox[{Cell[TextData[\"False\"]], \"paclet:ref/False\"},\n\"RefLink\",\nBaseStyle->{\"InlineFormula\"}]\) otherwise.";
+ValidVectorStateQ::usage=FormatUsage["ValidVectorStateQ[state] gives '''True''' if ```state``` is a valid '''VectorState''', and '''False''' otherwise."];
 
 
-ValidDMatrixStateQ::usage="ValidDMatrixStateQ[state] gives True if state is a valid DMatrixState, and False otherwise.";
+ValidDMatrixStateQ::usage=FormatUsage["ValidDMatrixStateQ[state] gives '''True''' if ```state``` is a valid '''DMatrixState''', and '''False''' otherwise."];
 
 
-VectorStateToArray::usage="VectorStateToArray[\!\(\*
-StyleBox[\"state\", \"TI\"]\)] transforms a \!\(\*
-StyleBox[\"state\", \"TI\"]\) of VectorState into an Array.";
+VectorStateToArray::usage=FormatUsage["VectorStateToArray[state] transforms a ```state``` of '''VectorState''' into an '''Array'''."];
 
 
-DMatrixStateToMatrix::usage="DMatrixStateToMatrix[state] transforms a state of DMatrixState into a Matrix.";
+DMatrixStateToMatrix::usage=FormatUsage["DMatrixStateToMatrix[state] transforms a ```state``` of '''DMatrixState''' into a '''Matrix'''."];
 
 
 (* ::Section:: *)
 (*DTQW*)
 
 
-DTQW::usage="DTQW[\!\(\*
-StyleBox[\"state\", \"TI\"]\),\!\(\*
-StyleBox[\"n\", \"TI\"]\)] evaluates \!\(\*
-StyleBox[\"n\", \"TI\"]\) steps in the DTQW with initial VectorState \!\(\*
-StyleBox[\"state\", \"TI\"]\) using the Coin and Shift operators created by their respective functions.
-DTQW[\!\(\*
-StyleBox[\"state\", \"TI\"]\),\!\(\*
-StyleBox[\"n\", \"TI\"]\)] evaluates \!\(\*
-StyleBox[\"n\", \"TI\"]\) steps in the DTQW with initial DMatrixState \!\(\*
-StyleBox[\"state\", \"TI\"]\) using the Coin and Shift operators created by their respective functions.";
+DTQW::usage=FormatUsage["DTQW[state,n] evaluates ```n``` steps in the DTQW with initial '''VectorState''' ```state``` using the coin and shift operators created by their respective functions.
+DTQW[state,n] evaluates ```n``` steps in the DTQW with initial '''DMatrixState''' ```state``` using the coin and shift operators created by their respective functions."];
 
 
-DTQWwD::usage="DTQWwD[\!\(\*
-StyleBox[\"state\", \"TI\"]\),\!\(\*
-StyleBox[\"p\", \"TI\"]\),\!\(\*
-StyleBox[\"n\", \"TI\"]\)] evaluates \!\(\*
-StyleBox[\"n\", \"TI\"]\) steps in the DTQW with initial VectorState \!\(\*
-StyleBox[\"state\", \"TI\"]\) using the Coin and Shift operators created by their respective functions and with \!\(\*
-StyleBox[\"p\", \"TI\"]\) probability of getting a phase\[Dash]flip.
-DTQWwD[\!\(\*
-StyleBox[\"state\", \"TI\"]\),\!\(\*
-StyleBox[\"p\", \"TI\"]\),\!\(\*
-StyleBox[\"n\", \"TI\"]\)] evaluates \!\(\*
-StyleBox[\"n\", \"TI\"]\) steps in the DTQW with initial DMatrixState \!\(\*
-StyleBox[\"state\", \"TI\"]\) using the Coin and Shift operators created by their respective functions and with \!\(\*
-StyleBox[\"p\", \"TI\"]\) probability of getting a phase\[Dash]flip.";
+DTQWwD::usage=FormatUsage["DTQWwD[state,p,n] evaluates ```n``` steps in the DTQW with initial '''VectorState''' ```state``` using the coin and shift operators created by their respective functions and with ```p``` probability of getting a phase-flip.
+DTQWwD[state,p,n] evaluates ```n``` steps in the DTQW with initial '''DMatrixState''' ```state``` using the coin and shift operators created by their respective functions and with ```p``` probability of getting a phase-flip."];
 
 
 (* ::Section:: *)
 (*Misc*)
 
 
-InitialRhoState::usage="InitialRhoState[blochVector_List,pos_List] gives the initial state of the quantum walk as a density matrix of the form \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\)\[CircleTimes]\!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) where \!\(\*SubscriptBox[\(\[Rho]\), \(coin\)]\) is the density matrix created from Bloch vector blochVector_List, and \!\(\*SubscriptBox[\(\[Rho]\), \(position\)]\) is the density matrix \!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"1\", \"]\"}], \"]\"}]},\n\"Ket\"]\)\!\(\*TemplateBox[{RowBox[{\"pos_List\", \"[\", RowBox[{\"[\", \"2\", \"]\"}], \"]\"}]},\n\"Bra\"]\).";
+InitialRhoState::usage=FormatUsage["InitialRhoState[blochVector,pos] gives the initial state of the quantum walk as a density matris of the form ```\[Rho]_{*coin*}\[TensorProduct]\[Rho]_{*position*}``` where ```\[Rho]_{*coin*}``` is the density matrix created from ```blochVector``` Bloch vector, and ```\[Rho]_{*position*}``` is the density matrix '''Ket[{```pos```[[1]]}].Bra[{```pos```[[2]]}]'''."];
 
 
-rowQW::usage="rowQW[state,steps] returns the probability distribution at each position of the walk with initial state state after the specified number of steps steps.";
+rowQW::usage=FormatUsage["rowQW[state,steps] returns the probability distribution at each position of the walk with initial state ```state``` after the specified number of steps ```steps```."];
 
 
-QPascal::usage="QPascal[state,steps] generates a table representing the evolution of the probability distribution of a DQWL on a line, showing the probabilities at the central positions after each step up to a specified number of steps.";
+QPascal::usage=FormatUsage["QPascal[state,steps] generates a table representing the evolution of the probability distribution of a DQWL on a line, showing the probabilities at the central positions after each step up to a specified number of steps."];
 
 
-BlochVector::usage="BlochVector[operators_List] calculates the Bloch vector associated with a set of operators in operators_List, represented by 2\[Times]2 matrices.";
+BlochVector::usage=FormatUsage["BlochVector[operators] calculates the Bloch vector associated with a set of operators in ```operators```, each represented by 2\[Times]2 matrices."];
 
 
 (* ::Chapter:: *)
