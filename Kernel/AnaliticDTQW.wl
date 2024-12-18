@@ -4,10 +4,6 @@
 (*AnaliticDTQW*)
 
 
-(* ::Text::RGBColor[1, 0, 0]:: *)
-(*cambi\[EAcute] el nombre de las funciones de cosas como ACoin a AnlCoin, para ser m\[AAcute]s explicitos de que son cosas anal\[IAcute]ticas*)
-
-
 BeginPackage["QW`AnaliticDTQW`"];
 
 
@@ -19,10 +15,6 @@ ClearAll@@Names["QW`AnaliticDTQW`*"];
 
 (* ::Chapter:: *)
 (*Public*)
-
-
-(* ::Text:: *)
-(*agregu\[EAcute] esta l\[IAcute]nea:*)
 
 
 <<ForScience` (* For nice usage messages formatting *)
@@ -45,14 +37,10 @@ AnlDTQWstep::usage=FormatUsage["AnlDTQWstep[state] returns the analytic expressi
 (*Decoherent Part*)
 
 
-(* ::Text:: *)
-(*No entiendo las funciones, entonces hasta despu\[EAcute]s escribo los msjs de uso. Por qu\[EAcute] el input son estados y no matrices de densidad? Me servir\[IAcute]a ver un ejemplo para entender mejor*)
+SigmaZ::usage=FormatUsage["SigmaZ[|c,m\[RightAngleBracket]] returns the analytic expression of ('''\[Sigma]_z''' \[CircleTimes] '''\[DoubleStruckCapitalI]''')|```c,m```\[RightAngleBracket]."];
 
 
-AnlPhaseFlip::usage=FormatUsage["AnlPhaseFlip[state] returns the analytic expression of ..." .
-
-
-AnlChannel::usage="";
+AnlChannel::usage=FormatUsage["AnlChannel[\[Rho]_0,p] returns the analytic expression of a DTQW with phase-flip noise with probability ```p```, with initial state \[Rho]_0."];
 
 
 (* ::Chapter:: *)
@@ -97,7 +85,7 @@ AnlDTQWstep[state_]:=AnlShift@AnlCoin@state//FullSimplify
 
 
 (* ::Input::Initialization:: *)
-AnlPhaseFlip[state_]:=state/.{
+SigmaZ[state_]:=state/.{
 Ket[{c_,p_}]/;c==0->Ket[{c,p}],
 Ket[{c_,p_}]/;c==1->-Ket[{c,p}],
 Bra[{c_,p_}]/;c==0->Bra[{c,p}],
@@ -106,7 +94,7 @@ Bra[{c_,p_}]/;c==1->-Bra[{c,p}]
 
 
 (* ::Input::Initialization:: *)
-AnlChannel[state_,p_]:=p AnlDTQWstep[state]+(1-p) AnlPhaseFlip[AnlDTQWstep[state]]//FullSimplify//TensorExpand
+AnlChannel[state_,p_]:=p AnlDTQWstep[state]+(1-p) SigmaZ[AnlDTQWstep[state]]//FullSimplify//TensorExpand
 
 
 End[];
