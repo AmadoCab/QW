@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     88155,       1651]
-NotebookOptionsPosition[     87364,       1629]
-NotebookOutlinePosition[     87755,       1645]
-CellTagsIndexPosition[     87712,       1642]
+NotebookDataLength[     88222,       1650]
+NotebookOptionsPosition[     87431,       1628]
+NotebookOutlinePosition[     87822,       1644]
+CellTagsIndexPosition[     87779,       1641]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -32,9 +32,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.943025859139452*^9, 3.94302585914156*^9}, {
   3.943025900457603*^9, 3.943025923227583*^9}, {3.9430259873254013`*^9, 
   3.9430259911516047`*^9}, {3.94302616710091*^9, 3.943026167351956*^9}, {
-  3.9430294099480667`*^9, 
-  3.943029414369528*^9}},ExpressionUUID->"1f5b727d-ed03-46d8-b71d-\
-ce682f3ff420"],
+  3.9430294099480667`*^9, 3.943029414369528*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -79,7 +78,7 @@ Cell[BoxData[
                  TagBox[
                   
                   TemplateBox[{
-                   "7.093093`", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "16.405569`", "\"s\"", "seconds", "\"Seconds\""}, 
                    "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}}, 
              GridBoxAlignment -> {
               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
@@ -128,7 +127,7 @@ Cell[BoxData[
                  TagBox[
                   
                   TemplateBox[{
-                   "7.093093`", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "16.405569`", "\"s\"", "seconds", "\"Seconds\""}, 
                    "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}, {
                RowBox[{
                  TagBox[
@@ -155,16 +154,16 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     "InitialData" -> <|
                     "Files" -> {<|
                     "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-                    "4dd20bbb176011db76f2f9851dcef3ad46ef077ffe3b854cc902de140\
-d8f91f5"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-                    "1c3d1e479a048274b7c4b7974f30b49c5fb30de5aaad409c2071f1438\
-86fcc71"|>, <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
+                    "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b4738770\
+3a1f803"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
+                    "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a\
+8cbb6ed"|>, <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
                     "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f604\
 65abfe4"|>, <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-                    "400e98eec7de2d8fe90a82d8bfbb750ac9863e7616574c21257b5f88f\
-390681e"|>}|>, "AllowEmbedding" -> True, "InitialShape" -> 
+                    "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f\
+93ef6e0"|>}|>, "AllowEmbedding" -> True, "InitialShape" -> 
                     TypeSystem`PackageScope`HeaderShape[<|{All, All, 
-                    TypeSystem`PackageScope`KeyDummy[4]} -> 
+                    TypeSystem`PackageScope`KeyDummy[0]} -> 
                     1, {All, All, "File"} -> 1, {All, All, "Hash"} -> 1|>, 
                     TypeSystem`PackageScope`Limited[
                     TypeSystem`PackageScope`ColumnShape[
@@ -188,7 +187,7 @@ d8f91f5"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" ->
                     TypeSystem`Atom[String]}], 4], 1], "Meta" -> <||>, 
                     "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
                     TypeSystem`PackageScope`HeaderShape[<|{All, All, 
-                    TypeSystem`PackageScope`KeyDummy[4]} -> 
+                    TypeSystem`PackageScope`KeyDummy[0]} -> 
                     1, {All, All, "File"} -> 1, {All, All, "Hash"} -> 1|>, 
                     TypeSystem`PackageScope`Limited[
                     TypeSystem`PackageScope`ColumnShape[
@@ -350,8 +349,8 @@ d8f91f5"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" ->
                     Item[
                     Pane[
                     Annotation[
-                    "4dd20bbb176011db76f2f9851dcef3ad46ef077ffe3b854cc902de140\
-d8f91f5", 
+                    "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b4738770\
+3a1f803", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -375,8 +374,8 @@ d8f91f5",
                     Item[
                     Pane[
                     Annotation[
-                    "1c3d1e479a048274b7c4b7974f30b49c5fb30de5aaad409c2071f1438\
-86fcc71", 
+                    "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a\
+8cbb6ed", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -425,8 +424,8 @@ d8f91f5",
                     Item[
                     Pane[
                     Annotation[
-                    "400e98eec7de2d8fe90a82d8bfbb750ac9863e7616574c21257b5f88f\
-390681e", 
+                    "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f\
+93ef6e0", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -807,7 +806,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.001281`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.006264`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
@@ -858,7 +857,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.001281`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.006264`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -948,7 +947,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                     Success[
                     "DocumentationBuild", <|
-                    "TotalTime" -> Quantity[0.001281, "Seconds"], 
+                    "TotalTime" -> Quantity[0.006264, "Seconds"], 
                     "MaximumFileTime" -> <||>, "ProcessedFiles" -> <||>, 
                     "FailedFilesCount" -> 0, "PercentSucceeded" -> 
                     Quantity[Indeterminate, "Percent"], "ProcessedFilesCount" -> 
@@ -983,18 +982,18 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
   "PacletBuild", <|
    "PacletArchive" -> 
     "/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW-0.0.1.paclet", 
-    "TotalTime" -> Quantity[7.093093, "Seconds"], "BuildPacletDirectory" -> 
+    "TotalTime" -> Quantity[16.405569, "Seconds"], "BuildPacletDirectory" -> 
     File["/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW"], 
     "PacletManifest" -> 
     Dataset[<|"Files" -> {<|
          "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-          "4dd20bbb176011db76f2f9851dcef3ad46ef077ffe3b854cc902de140d8f91f5"|>\
+          "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f803"|>\
 , <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-          "1c3d1e479a048274b7c4b7974f30b49c5fb30de5aaad409c2071f143886fcc71"|>\
+          "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6ed"|>\
 , <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
           "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f60465abfe4"|>\
 , <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-          "400e98eec7de2d8fe90a82d8bfbb750ac9863e7616574c21257b5f88f390681e"|>\
+          "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e0"|>\
 }|>, 
       TypeSystem`Assoc[
        TypeSystem`Atom[String], 
@@ -1005,7 +1004,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
     "DocumentationBuildResults" -> {
       Success[
       "DocumentationBuild", <|
-       "TotalTime" -> Quantity[0.001281, "Seconds"], 
+       "TotalTime" -> Quantity[0.006264, "Seconds"], 
         "MaximumFileTime" -> <||>, "ProcessedFiles" -> <||>, 
         "FailedFilesCount" -> 0, "PercentSucceeded" -> 
         Quantity[Indeterminate, "Percent"], "ProcessedFilesCount" -> 0, 
@@ -1016,8 +1015,8 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.943026039810368*^9, 3.943026178076131*^9, 
-  3.9430283536004953`*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"3edb35dc-1659-44be-81fc-a38877e5313d"]
+  3.9430283536004953`*^9, 3.9434841756634073`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"966f64bf-453a-4572-a33f-34c2a6e68ad9"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1025,7 +1024,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"result", "[", "\"\<PacletManifest\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.9430260298702106`*^9, 3.943026044103271*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
+ CellLabel->"In[3]:=",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
 
 Cell[BoxData[
  TagBox[
@@ -1034,16 +1033,16 @@ Cell[BoxData[
     "InitialData" -> <|
       "Files" -> {<|
          "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-          "4dd20bbb176011db76f2f9851dcef3ad46ef077ffe3b854cc902de140d8f91f5"|>\
+          "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f803"|>\
 , <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-          "1c3d1e479a048274b7c4b7974f30b49c5fb30de5aaad409c2071f143886fcc71"|>\
+          "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6ed"|>\
 , <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
           "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f60465abfe4"|>\
 , <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-          "400e98eec7de2d8fe90a82d8bfbb750ac9863e7616574c21257b5f88f390681e"|>\
+          "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e0"|>\
 }|>, "AllowEmbedding" -> True, "InitialShape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, All, 
-          TypeSystem`PackageScope`KeyDummy[5]} -> 1, {All, All, "File"} -> 
+          TypeSystem`PackageScope`KeyDummy[1]} -> 1, {All, All, "File"} -> 
         1, {All, All, "Hash"} -> 1|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
@@ -1066,7 +1065,7 @@ Cell[BoxData[
           TypeSystem`Atom[String]}], 4], 1], "Meta" -> <||>, "RowTarget" -> 
      20, "ColumnTarget" -> 10, "Shape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, All, 
-          TypeSystem`PackageScope`KeyDummy[5]} -> 1, {All, All, "File"} -> 
+          TypeSystem`PackageScope`KeyDummy[1]} -> 1, {All, All, "File"} -> 
         1, {All, All, "Hash"} -> 1|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
@@ -1230,8 +1229,8 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-              "4dd20bbb176011db76f2f9851dcef3ad46ef077ffe3b854cc902de140d8f91f\
-5", 
+              "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f80\
+3", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1255,8 +1254,8 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-              "1c3d1e479a048274b7c4b7974f30b49c5fb30de5aaad409c2071f143886fcc7\
-1", 
+              "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6e\
+d", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1305,8 +1304,8 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-              "400e98eec7de2d8fe90a82d8bfbb750ac9863e7616574c21257b5f88f390681\
-e", 
+              "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e\
+0", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1623,8 +1622,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.943026044918524*^9, 3.943026180500367*^9, 
-  3.943028353889468*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"3706e43f-fab2-4855-a506-e5a9ff018c15"]
+  3.943028353889468*^9, 3.943484176519545*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"1355e9be-ac61-41bd-8e27-952881f2ab50"]
 }, Open  ]]
 },
 WindowSize->{1024.5, 483},
@@ -1646,12 +1645,12 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 220, 3, 22, "Input",ExpressionUUID->"5a571178-a83d-4e7f-b551-a95ea8c3cad6"],
 Cell[CellGroupData[{
-Cell[803, 27, 455, 9, 22, "Input",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
-Cell[1261, 38, 53445, 981, 61, "Output",ExpressionUUID->"3edb35dc-1659-44be-81fc-a38877e5313d"]
+Cell[803, 27, 473, 8, 22, "Input",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
+Cell[1279, 37, 53472, 981, 61, "Output",ExpressionUUID->"966f64bf-453a-4572-a33f-34c2a6e68ad9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54743, 1024, 226, 3, 22, "Input",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
-Cell[54972, 1029, 32376, 597, 143, "Output",ExpressionUUID->"3706e43f-fab2-4855-a506-e5a9ff018c15"]
+Cell[54788, 1023, 226, 3, 22, "Input",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
+Cell[55017, 1028, 32398, 597, 168, "Output",ExpressionUUID->"1355e9be-ac61-41bd-8e27-952881f2ab50"]
 }, Open  ]]
 }
 ]
