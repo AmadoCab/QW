@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     88222,       1650]
-NotebookOptionsPosition[     87431,       1628]
-NotebookOutlinePosition[     87822,       1644]
-CellTagsIndexPosition[     87779,       1641]
+NotebookDataLength[    148765,       2776]
+NotebookOptionsPosition[    147972,       2754]
+NotebookOutlinePosition[    148363,       2770]
+CellTagsIndexPosition[    148320,       2767]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,7 +21,7 @@ Notebook[{
 Cell[BoxData[
  RowBox[{"Needs", "[", "\"\<PacletTools`\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.94302581868537*^9, 3.943025818687901*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"5a571178-a83d-4e7f-b551-a95ea8c3cad6"],
+ CellLabel->"In[32]:=",ExpressionUUID->"5a571178-a83d-4e7f-b551-a95ea8c3cad6"],
 
 Cell[CellGroupData[{
 
@@ -33,7 +33,7 @@ Cell[BoxData[
   3.943025900457603*^9, 3.943025923227583*^9}, {3.9430259873254013`*^9, 
   3.9430259911516047`*^9}, {3.94302616710091*^9, 3.943026167351956*^9}, {
   3.9430294099480667`*^9, 3.943029414369528*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
+ CellLabel->"In[33]:=",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -69,8 +69,8 @@ Cell[BoxData[
                   TemplateBox[{"\"PacletArchive\"", "\": \""}, "RowDefault"], 
                   "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                  TagBox[
-                 "\"/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW-\
-0.0.1.paclet\"", "SummaryItem"]}]}, {
+                 "\"/home/amadoc/Desktop/progra/Mathematica/QW/build/QW-0.1.0.\
+paclet\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox[
                   TemplateBox[{"\"TotalTime\"", "\": \""}, "RowDefault"], 
@@ -78,7 +78,7 @@ Cell[BoxData[
                  TagBox[
                   
                   TemplateBox[{
-                   "16.405569`", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "11.03662`", "\"s\"", "seconds", "\"Seconds\""}, 
                    "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}}, 
              GridBoxAlignment -> {
               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
@@ -118,8 +118,8 @@ Cell[BoxData[
                   TemplateBox[{"\"PacletArchive\"", "\": \""}, "RowDefault"], 
                   "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                  TagBox[
-                 "\"/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW-\
-0.0.1.paclet\"", "SummaryItem"]}]}, {
+                 "\"/home/amadoc/Desktop/progra/Mathematica/QW/build/QW-0.1.0.\
+paclet\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox[
                   TemplateBox[{"\"TotalTime\"", "\": \""}, "RowDefault"], 
@@ -127,7 +127,7 @@ Cell[BoxData[
                  TagBox[
                   
                   TemplateBox[{
-                   "16.405569`", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "11.03662`", "\"s\"", "seconds", "\"Seconds\""}, 
                    "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}, {
                RowBox[{
                  TagBox[
@@ -139,8 +139,8 @@ Cell[BoxData[
                   RowBox[{"File", "[", 
                     
                     TemplateBox[{
-                    "\"/home/amadoc/Desktop/Programming/Mathematica/QW/build/\
-QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
+                    "\"/home/amadoc/Desktop/progra/Mathematica/QW/build/QW\""}\
+, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                RowBox[{
                  TagBox[
                   TemplateBox[{"\"PacletManifest\"", "\": \""}, "RowDefault"],
@@ -154,14 +154,61 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     "InitialData" -> <|
                     "Files" -> {<|
                     "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-                    "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b4738770\
-3a1f803"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-                    "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a\
-8cbb6ed"|>, <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
-                    "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f604\
-65abfe4"|>, <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-                    "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f\
-93ef6e0"|>}|>, "AllowEmbedding" -> True, "InitialShape" -> 
+                    "9dc9cceedab2d43afe59333e61c68f26cd731d09b07d2cac81740b1fb\
+6bafd8c"|>, <|"File" -> File["Kernel/NewDTQW/DTQWApplyOperator.wl"], "Hash" -> 
+                    "ab457da9ec175fbcc26a3d376668e787b985f74ca96b9d96b857ed413\
+c15f0e6"|>, <|"File" -> File["Kernel/NewDTQW/DTQWEnv.wl"], "Hash" -> 
+                    "c14bf469407136dbaba439101ce7ee39699a6bc91aaa545818a5c50be\
+dbeea0d"|>, <|"File" -> File["Kernel/NewDTQW/DTQWPosDistribution.wl"], "Hash" -> 
+                    "ae8ada75cc5cea9ca389086651df7763536912fda1bf24129da1b535e\
+d42fd7c"|>, <|"File" -> File["Kernel/NewDTQW/DTQWPosExpvalue.wl"], "Hash" -> 
+                    "0f9646bfd66b684e657c679a7dfa5759896895a1421707b2bce7f569d\
+ecad514"|>, <|"File" -> File["Kernel/NewDTQW/DTQWPosStandardev.wl"], "Hash" -> 
+                    "c0c064d55a4b018c484c4206fb689b6b344cfc810e8958e2d3c04433c\
+eac8949"|>, <|"File" -> File["Kernel/NewDTQW/DTQWQtmcPrint.wl"], "Hash" -> 
+                    "d375e1c1476757c9e2a68424edcad70a6a20a95856bfefdc4cd1cead5\
+125b468"|>, <|"File" -> File["Kernel/NewDTQW/DTQWReducedMatrix.wl"], "Hash" -> 
+                    "7c3604abde929c6ea37d99d3c05938eaba39b1410c9b03f8a9b8b81ba\
+377176b"|>, <|"File" -> File["Kernel/NewDTQW/DTQWSdAdjustments.wl"], "Hash" -> 
+                    "52597d7799f66de2bd5783c0ef4daaf81cfbff8869cf914f87b3c785c\
+eee77ed"|>, <|"File" -> File["Kernel/NewDTQW/DTQWSpacing.wl"], "Hash" -> 
+                    "a51a34361859f933660a318c7ba3cb6cee96d633663e6ea4839ec4cec\
+5f975f6"|>, <|"File" -> File["Kernel/NewDTQW/DTQWStep.wl"], "Hash" -> 
+                    "50da60f8550a92bb3986776ddd88cf1d448a9f0e5269102b47b559a1c\
+f57342a"|>, <|"File" -> File["Kernel/NewDTQW/DTQWSummary.wl"], "Hash" -> 
+                    "049f38ad8696634544d58151d66e5b7a8fe687893dc323be2300e6834\
+530c671"|>, <|"File" -> File["Kernel/NewDTQW/DTQWTrace.wl"], "Hash" -> 
+                    "c567513f170930eb2ed5bc9836016a831e96314af3bcacce40b192a3a\
+e80ccbf"|>, <|"File" -> File["Kernel/NewDTQW/DTQW.wl"], "Hash" -> 
+                    "2b8bd627346afa5bc13e651a05758e868c37ed3ead1316920043ed828\
+294a81e"|>, <|"File" -> File["Kernel/NewDTQW.wl"], "Hash" -> 
+                    "03e401670b09dc0704321cfeffb9c94f995d146521bb69e9c41421ab5\
+4c583af"|>, <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
+                    "5543bd8ddb7a126910446234a57a3c72a8082b212121ba7e018d361d7\
+73f216a"|>, <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
+                    "30b58425dd176983b4f981b6829483e519a6f3ae9dd35e9d9ebfc25f7\
+920003a"|>, <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
+                    "cbd82b506474aa4b824aaa9621600a7c5e427af260663770756a2dab8\
+978b6a7"|>, <|"File" -> File["Kernel/Utils/FormatUsageCaseDoc.wl"], "Hash" -> 
+                    "13992c2a20b092ef558f0d1a7c8da0b0685cc03a05787605afea74c3a\
+a7646b6"|>, <|"File" -> File["Kernel/Utils/FormatUsageCase.wl"], "Hash" -> 
+                    "d9c776e18d25fd78e12e1041df8166644b2e81a74745cbfe2cd24c767\
+0588f93"|>, <|"File" -> File["Kernel/Utils/FormatUsageDoc.wl"], "Hash" -> 
+                    "4b37597929a92e494fb65b70d12889eaae94d263d29745b07c372af17\
+dd296c7"|>, <|"File" -> File["Kernel/Utils/FormatUsage.wl"], "Hash" -> 
+                    "aa42c23928cc719bf53fc6b3f707c6fb6bc1f28f9524f4014f0071c58\
+7006696"|>, <|"File" -> File["Kernel/Utils/MakeUsageStringDoc.wl"], "Hash" -> 
+                    "61a63a9e92f4137a76d335c92dd14be46ebc930a3b61b713c6cb63a56\
+507361e"|>, <|"File" -> File["Kernel/Utils/MakeUsageString.wl"], "Hash" -> 
+                    "1b2e2ee3968a9c94d25311006d12467586baf07442a259b17cf58950f\
+0089101"|>, <|"File" -> File["Kernel/Utils/ParseFormattingDoc.wl"], "Hash" -> 
+                    "4972d7dd6d9c49803c4829d8c89e7b887b5e5659bd50a6c667c2fe99f\
+93d8f56"|>, <|"File" -> File["Kernel/Utils/ParseFormatting.wl"], "Hash" -> 
+                    "cddae0263bf64f8564d88ab7ab15773e2999bc4e285303abadbd40794\
+bf73434"|>, <|"File" -> File["Kernel/Utils.wl"], "Hash" -> 
+                    
+                    "339800bb0b28e5d2f9572b1f8fd28baa6347514f57e0d6ab823bb4c35\
+74f84d2"|>}|>, "AllowEmbedding" -> True, "InitialShape" -> 
                     TypeSystem`PackageScope`HeaderShape[<|{All, All, 
                     TypeSystem`PackageScope`KeyDummy[0]} -> 
                     1, {All, All, "File"} -> 1, {All, All, "Hash"} -> 1|>, 
@@ -176,7 +223,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`PackageScope`RowShape[<|
                     "File" -> TypeSystem`PackageScope`AtomShape[60], "Hash" -> 
                     TypeSystem`PackageScope`AtomShape[560.]|>], 
-                    DirectedInfinity[1], 2, {All, All}]], 4, 
+                    DirectedInfinity[1], 2, {All, All}]], 20, 
                     DirectedInfinity[1], {All}]]], 1, 
                     DirectedInfinity[1], {}]], "InitialType" -> 
                     TypeSystem`Assoc[
@@ -184,7 +231,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`Vector[
                     TypeSystem`Struct[{"File", "Hash"}, {
                     TypeSystem`Atom[File], 
-                    TypeSystem`Atom[String]}], 4], 1], "Meta" -> <||>, 
+                    TypeSystem`Atom[String]}], 27], 1], "Meta" -> <||>, 
                     "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
                     TypeSystem`PackageScope`HeaderShape[<|{All, All, 
                     TypeSystem`PackageScope`KeyDummy[0]} -> 
@@ -200,14 +247,14 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`PackageScope`RowShape[<|
                     "File" -> TypeSystem`PackageScope`AtomShape[60], "Hash" -> 
                     TypeSystem`PackageScope`AtomShape[560.]|>], 
-                    DirectedInfinity[1], 2, {All, All}]], 4, 
+                    DirectedInfinity[1], 2, {All, All}]], 20, 
                     DirectedInfinity[1], {All}]]], 1, 
                     DirectedInfinity[1], {}]], "Type" -> TypeSystem`Assoc[
                     TypeSystem`Atom[String], 
                     TypeSystem`Vector[
                     TypeSystem`Struct[{"File", "Hash"}, {
                     TypeSystem`Atom[File], 
-                    TypeSystem`Atom[String]}], 4], 1], "Path" -> {}, 
+                    TypeSystem`Atom[String]}], 27], 1], "Path" -> {}, 
                     "DisplayedRowCount" -> 1, "DisplayedColumnCount" -> 2, 
                     "DataRowCount" -> 1, "DataColumnCount" -> 2, 
                     "SortPaths" -> {}, "SortDirections" -> {}, 
@@ -349,8 +396,8 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     Item[
                     Pane[
                     Annotation[
-                    "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b4738770\
-3a1f803", 
+                    "9dc9cceedab2d43afe59333e61c68f26cd731d09b07d2cac81740b1fb\
+6bafd8c", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -362,7 +409,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     Item[
                     Pane[
                     Annotation[
-                    File["Kernel/NumericDTQW.wl"], 
+                    File["Kernel/NewDTQW/DTQWApplyOperator.wl"], 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -374,12 +421,362 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     Item[
                     Pane[
                     Annotation[
-                    "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a\
-8cbb6ed", 
+                    "ab457da9ec175fbcc26a3d376668e787b985f74ca96b9d96b857ed413\
+c15f0e6", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
                     Key["Files"], 2, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWEnv.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 3, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "c14bf469407136dbaba439101ce7ee39699a6bc91aaa545818a5c50be\
+dbeea0d", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 3, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWPosDistribution.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 4, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "ae8ada75cc5cea9ca389086651df7763536912fda1bf24129da1b535e\
+d42fd7c", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 4, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWPosExpvalue.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 5, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "0f9646bfd66b684e657c679a7dfa5759896895a1421707b2bce7f569d\
+ecad514", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 5, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWPosStandardev.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 6, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "c0c064d55a4b018c484c4206fb689b6b344cfc810e8958e2d3c04433c\
+eac8949", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 6, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWQtmcPrint.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 7, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "d375e1c1476757c9e2a68424edcad70a6a20a95856bfefdc4cd1cead5\
+125b468", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 7, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWReducedMatrix.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 8, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "7c3604abde929c6ea37d99d3c05938eaba39b1410c9b03f8a9b8b81ba\
+377176b", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 8, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWSdAdjustments.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 9, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "52597d7799f66de2bd5783c0ef4daaf81cfbff8869cf914f87b3c785c\
+eee77ed", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 9, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWSpacing.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 10, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "a51a34361859f933660a318c7ba3cb6cee96d633663e6ea4839ec4cec\
+5f975f6", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 10, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWStep.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 11, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "50da60f8550a92bb3986776ddd88cf1d448a9f0e5269102b47b559a1c\
+f57342a", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 11, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWSummary.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 12, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "049f38ad8696634544d58151d66e5b7a8fe687893dc323be2300e6834\
+530c671", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 12, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQWTrace.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 13, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "c567513f170930eb2ed5bc9836016a831e96314af3bcacce40b192a3a\
+e80ccbf", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 13, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW/DTQW.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 14, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "2b8bd627346afa5bc13e651a05758e868c37ed3ead1316920043ed828\
+294a81e", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 14, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NewDTQW.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 15, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "03e401670b09dc0704321cfeffb9c94f995d146521bb69e9c41421ab5\
+4c583af", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 15, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/NumericDTQW.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 16, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "5543bd8ddb7a126910446234a57a3c72a8082b212121ba7e018d361d7\
+73f216a", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 16, 
                     Key["Hash"]}, "Item", False], "Mouse"], 
                     ImageSize -> {{560., Full}, Automatic}, 
                     ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -391,7 +788,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                    Key["Files"], 3, 
+                    Key["Files"], 17, 
                     Key["File"]}, "Item", False], "Mouse"], 
                     ImageSize -> {{60, Full}, Automatic}, 
                     ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -399,12 +796,12 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     Item[
                     Pane[
                     Annotation[
-                    "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f604\
-65abfe4", 
+                    "30b58425dd176983b4f981b6829483e519a6f3ae9dd35e9d9ebfc25f7\
+920003a", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                    Key["Files"], 3, 
+                    Key["Files"], 17, 
                     Key["Hash"]}, "Item", False], "Mouse"], 
                     ImageSize -> {{560., Full}, Automatic}, 
                     ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -416,7 +813,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                    Key["Files"], 4, 
+                    Key["Files"], 18, 
                     Key["File"]}, "Item", False], "Mouse"], 
                     ImageSize -> {{60, Full}, Automatic}, 
                     ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -424,16 +821,155 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     Item[
                     Pane[
                     Annotation[
-                    "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f\
-93ef6e0", 
+                    "cbd82b506474aa4b824aaa9621600a7c5e427af260663770756a2dab8\
+978b6a7", 
                     TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                    Key["Files"], 4, 
+                    Key["Files"], 18, 
                     Key["Hash"]}, "Item", False], "Mouse"], 
                     ImageSize -> {{560., Full}, Automatic}, 
                     ImageMargins -> {{5, 3}, {4, 5}}], 
-                    ItemSize -> {Full, Automatic}]}}, 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/Utils/FormatUsageCaseDoc.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 19, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "13992c2a20b092ef558f0d1a7c8da0b0685cc03a05787605afea74c3a\
+a7646b6", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 19, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    File["Kernel/Utils/FormatUsageCase.wl"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 20, 
+                    Key["File"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{60, Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}], 
+                    Item[
+                    Pane[
+                    Annotation[
+                    "d9c776e18d25fd78e12e1041df8166644b2e81a74745cbfe2cd24c767\
+0588f93", 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"], 20, 
+                    Key["Hash"]}, "Item", False], "Mouse"], 
+                    ImageSize -> {{560., Full}, Automatic}, 
+                    ImageMargins -> {{5, 3}, {4, 5}}], 
+                    ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+                    Item[
+                    Pane[
+                    Annotation[
+                    EventHandler[
+                    MouseAppearance[
+                    Mouseover[
+                    Superscript["27 total \:203a ", ""], 
+                    Style[
+                    Superscript["27 total \:203a ", ""], FontColor -> 
+                    RGBColor[0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`updateState[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                    Key["Files"]}, 2]]], 
+                    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                    Key["Files"]}, "Item", False], "Mouse"], 
+                    ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {{
+                    RGBColor[
+                    0.5098039215686274, 0.5098039215686274, 
+                    0.5098039215686274], 8}, ContextMenu -> {
+                    MenuItem["Show 1 More Row at This Level", 
+                    KernelExecute[
+                    
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, 
+                    1]& , {All}]], MenuEvaluator -> Automatic], 
+                    MenuItem["Show 5 More Rows at This Level", 
+                    KernelExecute[
+                    
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, 
+                    5]& , {All}]], MenuEvaluator -> Automatic], Delimiter, 
+                    MenuItem["Show 1 Fewer Row at This Level", 
+                    KernelExecute[
+                    
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, -1]& \
+, {All}]], MenuEvaluator -> Automatic], 
+                    MenuItem["Show 5 Fewer Rows at This Level", 
+                    KernelExecute[
+                    
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, -5]& \
+, {All}]], MenuEvaluator -> Automatic]}}, Alignment -> {Left, Baseline}, 
+                    Background -> GrayLevel[0.98]], SpanFromLeft}}, 
                     BaseStyle -> {
                     ContextMenu -> 
                     Dynamic[
@@ -442,6 +978,7 @@ QW\""}, "FileArgument"], "]"}], "SummaryItem"]}]}, {
                     TypeSystem`NestedGrid`PackagePrivate`localHold[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
                     TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
+                    
                     TypeSystem`NestedGrid`PackagePrivate`$\
 lastContextMenuTrigger, TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu,
                      True, TypeSystem`NestedGrid`PackagePrivate`$\
@@ -806,7 +1343,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.006264`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.006136`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}}, 
                     GridBoxAlignment -> {
@@ -857,7 +1394,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryItemAnnotation"], "\[InvisibleSpace]", 
                     TagBox[
                     
-                    TemplateBox[{"0.006264`", "\"s\"", "seconds", 
+                    TemplateBox[{"0.006136`", "\"s\"", "seconds", 
                     "\"Seconds\""}, "Quantity", SyntaxForm -> Mod], 
                     "SummaryItem"]}]}, {
                     RowBox[{
@@ -947,7 +1484,7 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
                     "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
                     Success[
                     "DocumentationBuild", <|
-                    "TotalTime" -> Quantity[0.006264, "Seconds"], 
+                    "TotalTime" -> Quantity[0.006136, "Seconds"], 
                     "MaximumFileTime" -> <||>, "ProcessedFiles" -> <||>, 
                     "FailedFilesCount" -> 0, "PercentSucceeded" -> 
                     Quantity[Indeterminate, "Percent"], "ProcessedFilesCount" -> 
@@ -981,30 +1518,77 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
   Success[
   "PacletBuild", <|
    "PacletArchive" -> 
-    "/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW-0.0.1.paclet", 
-    "TotalTime" -> Quantity[16.405569, "Seconds"], "BuildPacletDirectory" -> 
-    File["/home/amadoc/Desktop/Programming/Mathematica/QW/build/QW"], 
+    "/home/amadoc/Desktop/progra/Mathematica/QW/build/QW-0.1.0.paclet", 
+    "TotalTime" -> Quantity[11.03662, "Seconds"], "BuildPacletDirectory" -> 
+    File["/home/amadoc/Desktop/progra/Mathematica/QW/build/QW"], 
     "PacletManifest" -> 
     Dataset[<|"Files" -> {<|
          "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-          "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f803"|>\
+          "9dc9cceedab2d43afe59333e61c68f26cd731d09b07d2cac81740b1fb6bafd8c"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWApplyOperator.wl"], "Hash" -> 
+          "ab457da9ec175fbcc26a3d376668e787b985f74ca96b9d96b857ed413c15f0e6"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWEnv.wl"], "Hash" -> 
+          "c14bf469407136dbaba439101ce7ee39699a6bc91aaa545818a5c50bedbeea0d"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosDistribution.wl"], "Hash" -> 
+          "ae8ada75cc5cea9ca389086651df7763536912fda1bf24129da1b535ed42fd7c"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosExpvalue.wl"], "Hash" -> 
+          "0f9646bfd66b684e657c679a7dfa5759896895a1421707b2bce7f569decad514"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosStandardev.wl"], "Hash" -> 
+          "c0c064d55a4b018c484c4206fb689b6b344cfc810e8958e2d3c04433ceac8949"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWQtmcPrint.wl"], "Hash" -> 
+          "d375e1c1476757c9e2a68424edcad70a6a20a95856bfefdc4cd1cead5125b468"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWReducedMatrix.wl"], "Hash" -> 
+          "7c3604abde929c6ea37d99d3c05938eaba39b1410c9b03f8a9b8b81ba377176b"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSdAdjustments.wl"], "Hash" -> 
+          "52597d7799f66de2bd5783c0ef4daaf81cfbff8869cf914f87b3c785ceee77ed"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSpacing.wl"], "Hash" -> 
+          "a51a34361859f933660a318c7ba3cb6cee96d633663e6ea4839ec4cec5f975f6"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWStep.wl"], "Hash" -> 
+          "50da60f8550a92bb3986776ddd88cf1d448a9f0e5269102b47b559a1cf57342a"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSummary.wl"], "Hash" -> 
+          "049f38ad8696634544d58151d66e5b7a8fe687893dc323be2300e6834530c671"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWTrace.wl"], "Hash" -> 
+          "c567513f170930eb2ed5bc9836016a831e96314af3bcacce40b192a3ae80ccbf"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQW.wl"], "Hash" -> 
+          "2b8bd627346afa5bc13e651a05758e868c37ed3ead1316920043ed828294a81e"|>\
+, <|"File" -> File["Kernel/NewDTQW.wl"], "Hash" -> 
+          "03e401670b09dc0704321cfeffb9c94f995d146521bb69e9c41421ab54c583af"|>\
 , <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-          "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6ed"|>\
+          "5543bd8ddb7a126910446234a57a3c72a8082b212121ba7e018d361d773f216a"|>\
 , <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
-          "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f60465abfe4"|>\
+          "30b58425dd176983b4f981b6829483e519a6f3ae9dd35e9d9ebfc25f7920003a"|>\
 , <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-          "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e0"|>\
+          "cbd82b506474aa4b824aaa9621600a7c5e427af260663770756a2dab8978b6a7"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageCaseDoc.wl"], "Hash" -> 
+          "13992c2a20b092ef558f0d1a7c8da0b0685cc03a05787605afea74c3aa7646b6"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageCase.wl"], "Hash" -> 
+          "d9c776e18d25fd78e12e1041df8166644b2e81a74745cbfe2cd24c7670588f93"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageDoc.wl"], "Hash" -> 
+          "4b37597929a92e494fb65b70d12889eaae94d263d29745b07c372af17dd296c7"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsage.wl"], "Hash" -> 
+          "aa42c23928cc719bf53fc6b3f707c6fb6bc1f28f9524f4014f0071c587006696"|>\
+, <|"File" -> File["Kernel/Utils/MakeUsageStringDoc.wl"], "Hash" -> 
+          "61a63a9e92f4137a76d335c92dd14be46ebc930a3b61b713c6cb63a56507361e"|>\
+, <|"File" -> File["Kernel/Utils/MakeUsageString.wl"], "Hash" -> 
+          "1b2e2ee3968a9c94d25311006d12467586baf07442a259b17cf58950f0089101"|>\
+, <|"File" -> File["Kernel/Utils/ParseFormattingDoc.wl"], "Hash" -> 
+          "4972d7dd6d9c49803c4829d8c89e7b887b5e5659bd50a6c667c2fe99f93d8f56"|>\
+, <|"File" -> File["Kernel/Utils/ParseFormatting.wl"], "Hash" -> 
+          "cddae0263bf64f8564d88ab7ab15773e2999bc4e285303abadbd40794bf73434"|>\
+, <|"File" -> File["Kernel/Utils.wl"], "Hash" -> 
+          
+          "339800bb0b28e5d2f9572b1f8fd28baa6347514f57e0d6ab823bb4c3574f84d2"|>\
 }|>, 
       TypeSystem`Assoc[
        TypeSystem`Atom[String], 
        TypeSystem`Vector[
         TypeSystem`Struct[{"File", "Hash"}, {
           TypeSystem`Atom[File], 
-          TypeSystem`Atom[String]}], 4], 1], <||>], 
+          TypeSystem`Atom[String]}], 27], 1], <||>], 
     "DocumentationBuildResults" -> {
       Success[
       "DocumentationBuild", <|
-       "TotalTime" -> Quantity[0.006264, "Seconds"], 
+       "TotalTime" -> Quantity[0.006136, "Seconds"], 
         "MaximumFileTime" -> <||>, "ProcessedFiles" -> <||>, 
         "FailedFilesCount" -> 0, "PercentSucceeded" -> 
         Quantity[Indeterminate, "Percent"], "ProcessedFilesCount" -> 0, 
@@ -1015,8 +1599,11 @@ lastPathIsLeafHeader = TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$;
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.943026039810368*^9, 3.943026178076131*^9, 
-  3.9430283536004953`*^9, 3.9434841756634073`*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"966f64bf-453a-4572-a33f-34c2a6e68ad9"]
+  3.9430283536004953`*^9, 3.9434841756634073`*^9, 3.959910385693408*^9, 
+  3.9599105684424267`*^9, 3.959911169491734*^9, 3.959912728953908*^9, 
+  3.959913295782248*^9, 3.959914198471447*^9, 3.959914705793583*^9, 
+  3.959944246382147*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"1031633f-ddfb-4eaa-a70a-d08cbed25ef1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1024,7 +1611,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"result", "[", "\"\<PacletManifest\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.9430260298702106`*^9, 3.943026044103271*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
+ CellLabel->"In[34]:=",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
 
 Cell[BoxData[
  TagBox[
@@ -1033,13 +1620,59 @@ Cell[BoxData[
     "InitialData" -> <|
       "Files" -> {<|
          "File" -> File["Kernel/AnaliticDTQW.wl"], "Hash" -> 
-          "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f803"|>\
+          "9dc9cceedab2d43afe59333e61c68f26cd731d09b07d2cac81740b1fb6bafd8c"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWApplyOperator.wl"], "Hash" -> 
+          "ab457da9ec175fbcc26a3d376668e787b985f74ca96b9d96b857ed413c15f0e6"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWEnv.wl"], "Hash" -> 
+          "c14bf469407136dbaba439101ce7ee39699a6bc91aaa545818a5c50bedbeea0d"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosDistribution.wl"], "Hash" -> 
+          "ae8ada75cc5cea9ca389086651df7763536912fda1bf24129da1b535ed42fd7c"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosExpvalue.wl"], "Hash" -> 
+          "0f9646bfd66b684e657c679a7dfa5759896895a1421707b2bce7f569decad514"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWPosStandardev.wl"], "Hash" -> 
+          "c0c064d55a4b018c484c4206fb689b6b344cfc810e8958e2d3c04433ceac8949"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWQtmcPrint.wl"], "Hash" -> 
+          "d375e1c1476757c9e2a68424edcad70a6a20a95856bfefdc4cd1cead5125b468"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWReducedMatrix.wl"], "Hash" -> 
+          "7c3604abde929c6ea37d99d3c05938eaba39b1410c9b03f8a9b8b81ba377176b"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSdAdjustments.wl"], "Hash" -> 
+          "52597d7799f66de2bd5783c0ef4daaf81cfbff8869cf914f87b3c785ceee77ed"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSpacing.wl"], "Hash" -> 
+          "a51a34361859f933660a318c7ba3cb6cee96d633663e6ea4839ec4cec5f975f6"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWStep.wl"], "Hash" -> 
+          "50da60f8550a92bb3986776ddd88cf1d448a9f0e5269102b47b559a1cf57342a"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWSummary.wl"], "Hash" -> 
+          "049f38ad8696634544d58151d66e5b7a8fe687893dc323be2300e6834530c671"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQWTrace.wl"], "Hash" -> 
+          "c567513f170930eb2ed5bc9836016a831e96314af3bcacce40b192a3ae80ccbf"|>\
+, <|"File" -> File["Kernel/NewDTQW/DTQW.wl"], "Hash" -> 
+          "2b8bd627346afa5bc13e651a05758e868c37ed3ead1316920043ed828294a81e"|>\
+, <|"File" -> File["Kernel/NewDTQW.wl"], "Hash" -> 
+          "03e401670b09dc0704321cfeffb9c94f995d146521bb69e9c41421ab54c583af"|>\
 , <|"File" -> File["Kernel/NumericDTQW.wl"], "Hash" -> 
-          "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6ed"|>\
+          "5543bd8ddb7a126910446234a57a3c72a8082b212121ba7e018d361d773f216a"|>\
 , <|"File" -> File["Kernel/QW.wl"], "Hash" -> 
-          "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f60465abfe4"|>\
+          "30b58425dd176983b4f981b6829483e519a6f3ae9dd35e9d9ebfc25f7920003a"|>\
 , <|"File" -> File["Kernel/RandomWalks.wl"], "Hash" -> 
-          "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e0"|>\
+          "cbd82b506474aa4b824aaa9621600a7c5e427af260663770756a2dab8978b6a7"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageCaseDoc.wl"], "Hash" -> 
+          "13992c2a20b092ef558f0d1a7c8da0b0685cc03a05787605afea74c3aa7646b6"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageCase.wl"], "Hash" -> 
+          "d9c776e18d25fd78e12e1041df8166644b2e81a74745cbfe2cd24c7670588f93"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsageDoc.wl"], "Hash" -> 
+          "4b37597929a92e494fb65b70d12889eaae94d263d29745b07c372af17dd296c7"|>\
+, <|"File" -> File["Kernel/Utils/FormatUsage.wl"], "Hash" -> 
+          "aa42c23928cc719bf53fc6b3f707c6fb6bc1f28f9524f4014f0071c587006696"|>\
+, <|"File" -> File["Kernel/Utils/MakeUsageStringDoc.wl"], "Hash" -> 
+          "61a63a9e92f4137a76d335c92dd14be46ebc930a3b61b713c6cb63a56507361e"|>\
+, <|"File" -> File["Kernel/Utils/MakeUsageString.wl"], "Hash" -> 
+          "1b2e2ee3968a9c94d25311006d12467586baf07442a259b17cf58950f0089101"|>\
+, <|"File" -> File["Kernel/Utils/ParseFormattingDoc.wl"], "Hash" -> 
+          "4972d7dd6d9c49803c4829d8c89e7b887b5e5659bd50a6c667c2fe99f93d8f56"|>\
+, <|"File" -> File["Kernel/Utils/ParseFormatting.wl"], "Hash" -> 
+          "cddae0263bf64f8564d88ab7ab15773e2999bc4e285303abadbd40794bf73434"|>\
+, <|"File" -> File["Kernel/Utils.wl"], "Hash" -> 
+          "339800bb0b28e5d2f9572b1f8fd28baa6347514f57e0d6ab823bb4c3574f84d2"|>\
 }|>, "AllowEmbedding" -> True, "InitialShape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, All, 
           TypeSystem`PackageScope`KeyDummy[1]} -> 1, {All, All, "File"} -> 
@@ -1055,14 +1688,14 @@ Cell[BoxData[
              TypeSystem`PackageScope`RowShape[<|
               "File" -> TypeSystem`PackageScope`AtomShape[60], "Hash" -> 
                TypeSystem`PackageScope`AtomShape[560.]|>], 
-             DirectedInfinity[1], 2, {All, All}]], 4, 
+             DirectedInfinity[1], 2, {All, All}]], 20, 
            DirectedInfinity[1], {All}]]], 1, 
         DirectedInfinity[1], {}]], "InitialType" -> TypeSystem`Assoc[
        TypeSystem`Atom[String], 
        TypeSystem`Vector[
         TypeSystem`Struct[{"File", "Hash"}, {
           TypeSystem`Atom[File], 
-          TypeSystem`Atom[String]}], 4], 1], "Meta" -> <||>, "RowTarget" -> 
+          TypeSystem`Atom[String]}], 27], 1], "Meta" -> <||>, "RowTarget" -> 
      20, "ColumnTarget" -> 10, "Shape" -> 
      TypeSystem`PackageScope`HeaderShape[<|{All, All, 
           TypeSystem`PackageScope`KeyDummy[1]} -> 1, {All, All, "File"} -> 
@@ -1078,14 +1711,14 @@ Cell[BoxData[
              TypeSystem`PackageScope`RowShape[<|
               "File" -> TypeSystem`PackageScope`AtomShape[60], "Hash" -> 
                TypeSystem`PackageScope`AtomShape[560.]|>], 
-             DirectedInfinity[1], 2, {All, All}]], 4, 
+             DirectedInfinity[1], 2, {All, All}]], 20, 
            DirectedInfinity[1], {All}]]], 1, 
         DirectedInfinity[1], {}]], "Type" -> TypeSystem`Assoc[
        TypeSystem`Atom[String], 
        TypeSystem`Vector[
         TypeSystem`Struct[{"File", "Hash"}, {
           TypeSystem`Atom[File], 
-          TypeSystem`Atom[String]}], 4], 1], "Path" -> {}, 
+          TypeSystem`Atom[String]}], 27], 1], "Path" -> {}, 
      "DisplayedRowCount" -> 1, "DisplayedColumnCount" -> 2, "DataRowCount" -> 
      1, "DataColumnCount" -> 2, "SortPaths" -> {}, "SortDirections" -> {}, 
      "HiddenItemsMap" -> Null, "UpdateType" -> 1|>, 
@@ -1229,8 +1862,8 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-              "0cc52ba89cb89ebd3ebbc375cb4e4dcdd05d0eba3ac699802b47387703a1f80\
-3", 
+              "9dc9cceedab2d43afe59333e61c68f26cd731d09b07d2cac81740b1fb6bafd8\
+c", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1242,7 +1875,7 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-               File["Kernel/NumericDTQW.wl"], 
+               File["Kernel/NewDTQW/DTQWApplyOperator.wl"], 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
@@ -1254,12 +1887,362 @@ Cell[BoxData[
             Item[
              Pane[
               Annotation[
-              "e61c005fab2ade3dc56206f413b28102aaa59c17a9ee1ffacc1b02f7a8cbb6e\
-d", 
+              "ab457da9ec175fbcc26a3d376668e787b985f74ca96b9d96b857ed413c15f0e\
+6", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
                  Key["Files"], 2, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWEnv.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 3, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "c14bf469407136dbaba439101ce7ee39699a6bc91aaa545818a5c50bedbeea0\
+d", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 3, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWPosDistribution.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 4, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "ae8ada75cc5cea9ca389086651df7763536912fda1bf24129da1b535ed42fd7\
+c", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 4, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWPosExpvalue.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 5, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "0f9646bfd66b684e657c679a7dfa5759896895a1421707b2bce7f569decad51\
+4", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 5, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWPosStandardev.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 6, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "c0c064d55a4b018c484c4206fb689b6b344cfc810e8958e2d3c04433ceac894\
+9", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 6, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWQtmcPrint.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 7, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "d375e1c1476757c9e2a68424edcad70a6a20a95856bfefdc4cd1cead5125b46\
+8", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 7, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWReducedMatrix.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 8, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "7c3604abde929c6ea37d99d3c05938eaba39b1410c9b03f8a9b8b81ba377176\
+b", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 8, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWSdAdjustments.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 9, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "52597d7799f66de2bd5783c0ef4daaf81cfbff8869cf914f87b3c785ceee77e\
+d", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 9, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWSpacing.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 10, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "a51a34361859f933660a318c7ba3cb6cee96d633663e6ea4839ec4cec5f975f\
+6", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 10, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWStep.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 11, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "50da60f8550a92bb3986776ddd88cf1d448a9f0e5269102b47b559a1cf57342\
+a", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 11, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWSummary.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 12, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "049f38ad8696634544d58151d66e5b7a8fe687893dc323be2300e6834530c67\
+1", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 12, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQWTrace.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 13, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "c567513f170930eb2ed5bc9836016a831e96314af3bcacce40b192a3ae80ccb\
+f", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 13, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW/DTQW.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 14, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "2b8bd627346afa5bc13e651a05758e868c37ed3ead1316920043ed828294a81\
+e", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 14, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NewDTQW.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 15, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "03e401670b09dc0704321cfeffb9c94f995d146521bb69e9c41421ab54c583a\
+f", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 15, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/NumericDTQW.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 16, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "5543bd8ddb7a126910446234a57a3c72a8082b212121ba7e018d361d773f216\
+a", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 16, 
                  Key["Hash"]}, "Item", False], "Mouse"], 
               ImageSize -> {{560., Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -1271,7 +2254,7 @@ d",
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                 Key["Files"], 3, 
+                 Key["Files"], 17, 
                  Key["File"]}, "Item", False], "Mouse"], 
               ImageSize -> {{60, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -1279,12 +2262,12 @@ d",
             Item[
              Pane[
               Annotation[
-              "be9880e68646175033637ffe7b1e069543c4dffa3790499646c75f60465abfe\
-4", 
+              "30b58425dd176983b4f981b6829483e519a6f3ae9dd35e9d9ebfc25f7920003\
+a", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                 Key["Files"], 3, 
+                 Key["Files"], 17, 
                  Key["Hash"]}, "Item", False], "Mouse"], 
               ImageSize -> {{560., Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -1296,7 +2279,7 @@ d",
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                 Key["Files"], 4, 
+                 Key["Files"], 18, 
                  Key["File"]}, "Item", False], "Mouse"], 
               ImageSize -> {{60, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
@@ -1304,16 +2287,156 @@ d",
             Item[
              Pane[
               Annotation[
-              "9f83b6a784dab3925f017635bdad467b072f4529cd38bcfc8b1e6776f93ef6e\
-0", 
+              "cbd82b506474aa4b824aaa9621600a7c5e427af260663770756a2dab8978b6a\
+7", 
                TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
                 TypeSystem`NestedGrid`PackagePrivate`localHold[
                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
-                 Key["Files"], 4, 
+                 Key["Files"], 18, 
                  Key["Hash"]}, "Item", False], "Mouse"], 
               ImageSize -> {{560., Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}}, 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/Utils/FormatUsageCaseDoc.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 19, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "13992c2a20b092ef558f0d1a7c8da0b0685cc03a05787605afea74c3aa7646b\
+6", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 19, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               File["Kernel/Utils/FormatUsageCase.wl"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 20, 
+                 Key["File"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+              "d9c776e18d25fd78e12e1041df8166644b2e81a74745cbfe2cd24c7670588f9\
+3", 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"], 20, 
+                 Key["Hash"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{560., Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Superscript["27 total \:203a ", ""], 
+                  Style[
+                   Superscript["27 total \:203a ", ""], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                If[
+                  TypeSystem`NestedGrid`PackagePrivate`checkInteractivity[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                  TypeSystem`NestedGrid`PackagePrivate`updateState[
+                  TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                    Key["Files"]}, 2]]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Files"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {{
+                RGBColor[
+                0.5098039215686274, 0.5098039215686274, 0.5098039215686274], 
+                8}, ContextMenu -> {
+                 MenuItem["Show 1 More Row at This Level", 
+                  KernelExecute[
+                   
+                   TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, 
+                    1]& , {All}]], MenuEvaluator -> Automatic], 
+                 MenuItem["Show 5 More Rows at This Level", 
+                  KernelExecute[
+                   
+                   TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, 
+                    5]& , {All}]], MenuEvaluator -> Automatic], Delimiter, 
+                 MenuItem["Show 1 Fewer Row at This Level", 
+                  KernelExecute[
+                   
+                   TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, -1]& \
+, {All}]], MenuEvaluator -> Automatic], 
+                 MenuItem["Show 5 Fewer Rows at This Level", 
+                  KernelExecute[
+                   
+                   TypeSystem`NestedGrid`PackagePrivate`adjustLimits[{
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]}, 
+                    "Rows", 
+                    TypeSystem`NestedGrid`PackagePrivate`adjustLimitBy[#, -5]& \
+, {All}]], MenuEvaluator -> Automatic]}}, Alignment -> {Left, Baseline}, 
+             Background -> GrayLevel[0.98]], SpanFromLeft}}, 
           BaseStyle -> {
            ContextMenu -> 
             Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
@@ -1603,13 +2726,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{774.75, {62.099609375, 66.400390625}},
+      ImageSizeCache->{841.75, {259.474609375, 263.775390625}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{774.75, {62.099609375, 66.400390625}}],
+     ImageSizeCache->{841.75, {259.474609375, 263.775390625}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -1622,8 +2745,11 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.943026044918524*^9, 3.943026180500367*^9, 
-  3.943028353889468*^9, 3.943484176519545*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"1355e9be-ac61-41bd-8e27-952881f2ab50"]
+  3.943028353889468*^9, 3.943484176519545*^9, 3.959910386343732*^9, 
+  3.959910568635188*^9, 3.9599111700965223`*^9, 3.9599127295906763`*^9, 
+  3.959913296387813*^9, 3.959914199086795*^9, 3.959914706414237*^9, 
+  3.959944247005785*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"8b356e40-92c6-451d-b421-c4c08ea1a305"]
 }, Open  ]]
 },
 WindowSize->{1024.5, 483},
@@ -1643,14 +2769,14 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 220, 3, 22, "Input",ExpressionUUID->"5a571178-a83d-4e7f-b551-a95ea8c3cad6"],
+Cell[558, 20, 221, 3, 22, "Input",ExpressionUUID->"5a571178-a83d-4e7f-b551-a95ea8c3cad6"],
 Cell[CellGroupData[{
-Cell[803, 27, 473, 8, 22, "Input",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
-Cell[1279, 37, 53472, 981, 61, "Output",ExpressionUUID->"966f64bf-453a-4572-a33f-34c2a6e68ad9"]
+Cell[804, 27, 474, 8, 22, "Input",ExpressionUUID->"1f5b727d-ed03-46d8-b71d-ce682f3ff420"],
+Cell[1281, 37, 86614, 1568, 61, "Output",ExpressionUUID->"1031633f-ddfb-4eaa-a70a-d08cbed25ef1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54788, 1023, 226, 3, 22, "Input",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
-Cell[55017, 1028, 32398, 597, 168, "Output",ExpressionUUID->"1355e9be-ac61-41bd-8e27-952881f2ab50"]
+Cell[87932, 1610, 227, 3, 22, "Input",ExpressionUUID->"456589be-9ea9-4f4d-8aa6-1406112343c6"],
+Cell[88162, 1615, 59794, 1136, 563, "Output",ExpressionUUID->"8b356e40-92c6-451d-b421-c4c08ea1a305"]
 }, Open  ]]
 }
 ]

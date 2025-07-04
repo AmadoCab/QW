@@ -1,7 +1,9 @@
+(* ::Package:: *)
+
 PacletObject[
     <|
         "Name" -> "QW",
-        "Version" -> "0.0.1",
+        "Version" -> "0.1.0",
         "WolframVersion" -> "13.3+",
         "Extensions" ->
             {

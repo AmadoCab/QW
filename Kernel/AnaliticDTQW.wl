@@ -4,7 +4,7 @@
 (*AnaliticDTQW*)
 
 
-BeginPackage["QW`AnaliticDTQW`"];
+BeginPackage["QW`AnaliticDTQW`",{"QW`Utils`"}];
 
 
 Unprotect@@Names["QW`AnaliticDTQW`*"];
@@ -15,9 +15,6 @@ ClearAll@@Names["QW`AnaliticDTQW`*"];
 
 (* ::Chapter:: *)
 (*Public*)
-
-
-<<ForScience` (* For nice usage messages formatting *)
 
 
 (* ::Section:: *)

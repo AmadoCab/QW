@@ -4,7 +4,7 @@
 (*RandomWalks*)
 
 
-BeginPackage["QW`RandomWalks`"];
+BeginPackage["QW`RandomWalks`",{"QW`Utils`"}];
 
 
 Unprotect@@Names["QW`RandomWalks`*"];
@@ -15,9 +15,6 @@ ClearAll@@Names["QW`RandomWalks`*"];
 
 (* ::Chapter:: *)
 (*Public*)
-
-
-<<ForScience` (* For nice usage messages formatting *)
 
 
 PascalRow::usage=FormatUsage["PascalRow[n] generates the ```n-```th row of Pascal's triangle interleaved with zeros. Each element is normalized by dividing by ```2^n```."];

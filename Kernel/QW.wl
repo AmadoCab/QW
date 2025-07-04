@@ -7,19 +7,19 @@
 BeginPackage["QW`"];
 
 
-Begin["`Private`"];
-
-
-End[];
-
-
 EndPackage[];
 
 
-Get["QW`AnaliticDTQW`"];
+<<QW`Utils`;
 
 
-Get["QW`NumericDTQW`"];
+<<QW`AnaliticDTQW`;
 
 
-Get["QW`RandomWalks`"];
+<<QW`NewDTQW`;
+
+
+<<QW`NumericDTQW`;
+
+
+<<QW`RandomWalks`;
